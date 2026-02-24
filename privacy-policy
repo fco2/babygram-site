@@ -1,0 +1,130 @@
+<!DOCTYPE html>                                                                                                                                                                                                                
+  <html lang="en">                                                                                                                                                                                                               
+  <head>                                                                                                                                                                                                                         
+    <meta charset="UTF-8" />                                                                                                                                                                                                     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>                                                                                                                                                      
+    <title>BabyGram Privacy Policy</title>
+    <style>
+      body { font-family: sans-serif; max-width: 720px; margin: 60px auto; padding: 0 20px; color: #222; line-height: 1.7; }
+      h1 { color: #2d3436; }
+      h2 { color: #0984e3; margin-top: 40px; }
+      p, li { color: #444; }
+      a { color: #0984e3; }
+      .updated { color: #888; font-size: 0.9em; margin-bottom: 40px; }
+      table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+      th, td { text-align: left; padding: 10px 12px; border: 1px solid #ddd; }
+      th { background: #f0f4f8; }
+    </style>
+  </head>
+  <body>
+
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: February 24, 2026</p>
+
+    <p>BabyGram ("we", "our", or "us") is a baby activity tracking app for parents and caregivers. This Privacy Policy explains what data we collect, how we use it, and your rights.</p>
+
+    <h2>1. Data We Collect</h2>
+
+    <table>
+      <thead>
+        <tr><th>Data</th><th>Why</th><th>Stored by</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Name (display name)</td>
+          <td>Shown in your profile and shared with co-caretakers</td>
+          <td>Firebase (Google)</td>
+        </tr>
+        <tr>
+          <td>Email address</td>
+          <td>Account authentication and sign-in</td>
+          <td>Firebase (Google)</td>
+        </tr>
+        <tr>
+          <td>User ID</td>
+          <td>Identify your account across devices; manage your subscription</td>
+          <td>Firebase (Google), RevenueCat</td>
+        </tr>
+        <tr>
+          <td>Baby profiles (name, date of birth, gender)</td>
+          <td>Core app functionality — tracking your baby's activities</td>
+          <td>Firebase Firestore (Google)</td>
+        </tr>
+        <tr>
+          <td>Activity logs (feeding, sleep, diapers, weight, medicine, temperature, notes)</td>
+          <td>Core app functionality</td>
+          <td>Firebase Firestore (Google)</td>
+        </tr>
+        <tr>
+          <td>Subscription status</td>
+          <td>Determine which features you have access to</td>
+          <td>RevenueCat</td>
+        </tr>
+        <tr>
+          <td>App settings and preferences</td>
+          <td>Persist your unit, notification, and reminder preferences</td>
+          <td>Firebase Firestore (Google)</td>
+        </tr>
+        <tr>
+          <td>Device token (FCM)</td>
+          <td>Send push notifications when a co-caretaker logs an activity</td>
+          <td>Firebase Cloud Messaging (Google)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>We do not collect location data, payment card details, photos, contacts, or browsing history.</p>
+
+    <h2>2. How We Use Your Data</h2>
+    <ul>
+      <li>To provide and sync baby activity logs across your devices</li>
+      <li>To enable shared access with co-caretakers you invite</li>
+      <li>To manage your account and subscription</li>
+      <li>To send activity notifications (only if you enable them)</li>
+      <li>To export your data as a CSV file on your request</li>
+    </ul>
+    <p>We do not use your data for advertising, profiling, or sell it to any third party.</p>
+
+    <h2>3. Third-Party Services</h2>
+    <p>BabyGram uses the following third-party services:</p>
+    <ul>
+      <li><strong>Firebase (Google)</strong> — authentication, cloud database, and push notifications. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+      <li><strong>RevenueCat</strong> — subscription management. RevenueCat receives your user ID and purchase history. <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat Privacy Policy</a></li>
+      <li><strong>Google Play Billing</strong> — payment processing. Payment card details are handled entirely by Google and never seen by us. <a 
+  href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice" target="_blank">Google Payments Privacy Notice</a></li>
+    </ul>
+
+    <h2>4. Data Sharing</h2>
+    <p>Your data is <strong>never sold</strong>. It is only shared in these cases:</p>
+    <ul>
+      <li><strong>Co-caretakers you invite</strong> — baby profiles and activity logs are visible to users you explicitly invite to share a baby profile.</li>
+      <li><strong>Service providers</strong> — Firebase and RevenueCat process data on our behalf as described above.</li>
+      <li><strong>Legal requirements</strong> — if required by law or to protect the safety of users.</li>
+    </ul>
+
+    <h2>5. Children's Privacy</h2>
+    <p>BabyGram is designed for use by <strong>parents and caregivers</strong> (adults). The app is not directed at children under 13. While the app records data about infants and young children (activity logs, profiles), all
+   accounts are created and managed by adults. We do not knowingly collect personal information directly from children.</p>
+
+    <h2>6. Data Retention</h2>
+    <p>Your data is retained for as long as your account is active. If you delete your account, all associated data — including baby profiles and activity logs — is permanently and immediately deleted from our servers.</p>
+
+    <h2>7. Your Rights</h2>
+    <ul>
+      <li><strong>Access & export</strong> — you can export all your activity data as a CSV file from the Settings screen in the app.</li>
+      <li><strong>Correction</strong> — you can edit your display name and baby profile details at any time within the app.</li>
+      <li><strong>Deletion</strong> — you can delete your account and all data instantly from the app (Profile → Delete Account), or by <a href="delete-account.html">submitting a deletion request</a>.</li>
+    </ul>
+
+    <h2>8. Security</h2>
+    <p>All data is transmitted over HTTPS and stored in Firebase Firestore with access rules that restrict each user to their own data. Authentication is handled by Firebase Auth, supporting Sign in with Google and Sign in
+  with Apple.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. The "Last updated" date at the top of this page will reflect any changes. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>10. Contact</h2>
+    <p>If you have any questions about this Privacy Policy, email us at <a href="mailto:babygram.app@gmail.com">babygram.app@gmail.com</a>.</p>
+
+  </body>
+  </html>
